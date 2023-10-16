@@ -180,19 +180,19 @@ ul, li {
 }
 
 .sberbank {
-    background-image: url(/img/sber.png);
+    background-image: url(../img/sber.png);
     background-repeat: no-repeat;
     background-size: contain;
 }
 
 .rostelecom {
-    background-image: url(/img/rostelecom.png);
+    background-image: url(../img/rostelecom.png);
     background-repeat: no-repeat;
     background-size: contain;
 }
 
 .lukoil {
-    background-image: url(/img/lukoil.png);
+    background-image: url(../img/lukoil.png);
     background-repeat: no-repeat;
     background-size: contain;
 }
