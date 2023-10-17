@@ -39,6 +39,7 @@
     "webpack-merge": "^5.8.0"
   },
   "dependencies": {
-    "echarts": "^5.4.3"
+    "echarts": "^5.4.3",
+    "url-loader": "^4.1.1"
   }
 }

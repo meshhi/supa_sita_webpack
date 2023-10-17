@@ -1,0 +1,58 @@
+.start-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.start-inner-container {
+    width: 70%;
+    height: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.start-inner-container-left-col {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.start-title-first {
+    color: #43484e;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 1.25rem;
+}
+
+.start-title-second {
+    color: #43484e;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.55;
+    margin-bottom: .75rem;
+}
+
+.start-title-third {
+    color: #43484e;
+    font-size: 18px;
+}
+
+.start-inner-container-right-col {
+    flex: 1;
+    height: 100%;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.start-image {
+    width: 100%;
+    height: 100%;
+    background-image: url(/src/img/bg_electro_main.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    
+}

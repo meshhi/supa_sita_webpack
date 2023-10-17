@@ -1,4 +1,5 @@
 import "./css/style.css";
+import "./css/start-container.css";
 
 import "./js/app";
 

@@ -3,7 +3,10 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Inter', sans-serif;
+}
+
+body {
+    font-family: 'PTRootUIWebMedium',Arial,sans-serif;
 }
 
 ul, li {
@@ -68,12 +71,11 @@ ul, li {
 }
 
 /* START */
-.start-container {
+/* .start-container {
     height: 60vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    /* background-image: url(https://w0.peakpx.com/wallpaper/468/292/HD-wallpaper-anime-landscape-sunset-sky-horizon-bird-clouds-cityscape-anime.jpg); */
     background-image: url('../img/bg_electro.jpg');
     background-size: cover;
     background-repeat: no-repeat;
@@ -95,7 +97,7 @@ ul, li {
 
 .start-undertitle {
     font-size: 1.25rem;
-}
+} */
 
 /* CONTENT */
 .content-container {
