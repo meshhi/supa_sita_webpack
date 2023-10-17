@@ -101,7 +101,7 @@ ul, li {
 
 /* CONTENT */
 .content-container {
-    padding: 0 20%;
+    padding: 0 10%;
 }
 
 .footer {
@@ -171,7 +171,7 @@ ul, li {
 }
 
 /* ПАРТНЕРЫ */
-.partners {
+/* .partners {
     height: 300px;
     flex: 1;
     display: flex;
@@ -208,7 +208,7 @@ ul, li {
     background-image: url(../img/lukoil.png);
     background-repeat: no-repeat;
     background-size: contain;
-}
+} */
 
 /* НАШИ ПРОЕКТЫ */
 .map-chart {

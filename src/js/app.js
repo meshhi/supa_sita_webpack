@@ -14,6 +14,10 @@ const start = () => {
         block.classList.add("appear-bottom");
         return;
       }
+      if (block.classList.contains("advantages-container")) {
+        block.classList.add("appear-bottom");
+        return;
+      }
       block.classList.add("appear");
     });
   });
