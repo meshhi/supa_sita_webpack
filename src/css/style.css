@@ -9,6 +9,10 @@ ul, li {
     list-style-type: none;
 }
 
+body {
+
+}
+
 @keyframes appear {
     0% {
         transform: translateX(-100px);
@@ -157,6 +161,7 @@ ul, li {
 .advantages {
     background-color: #5b5ea8c4;
     color: #fff;
+    opacity: 0;
 }
 
 .partners {
@@ -167,6 +172,7 @@ ul, li {
     padding-top: 2rem;  
     margin-top: 2rem;
     margin-bottom: 4rem;
+    opacity: 0;
 }
 
 .partner-logos {
@@ -203,4 +209,24 @@ ul, li {
     flex: 1;
     background-color: #5b5ea8c4;
     color: #fff;
+    opacity: 0;
+}
+
+@media (max-width: 600px) {
+    .start-title {
+        font-size: 2rem;
+    }
+
+    .start-undertitle {
+        font-size: 1rem;
+    }
+
+    .about {
+        height: auto;
+    }
+
+    .custom-block {
+        max-width: 100%;
+    }
+
 }
