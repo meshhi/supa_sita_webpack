@@ -23,6 +23,18 @@ const start = () => {
   });
 
   const mapChart = new MapChart(document.querySelector('.map-chart-container'));
+
+  const leftArrowCarousel = document.querySelector('.carousel-left-arrow');
+  const rightArrowCarousel = document.querySelector('.carousel-right-arrow');
+  const carouselImageContent = document.querySelector('.carousel-image-content');
+
+  leftArrowCarousel.addEventListener('click', () => {
+    carouselImageContent.style.transform = 'translateX(-200%)';
+  });
+
+  rightArrowCarousel.addEventListener('click', () => {
+    carouselImageContent.style.transform = 'translateX(-100%)';
+  });
 }
 
 start();
