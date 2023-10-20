@@ -1,0 +1,56 @@
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 1fr;
+    min-height: 100vh;
+    gap: 20px;
+}
+
+.gallery-item {
+    border-radius: 1rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    /* padding-bottom: 2rem; */
+    /* border: 2px solid blue; */
+    /* padding: 5px; */
+}
+
+.gallery-item-text {
+    width: 100%;
+    height: 20%;
+    background-color: rgba(255, 255, 255, 0.445);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 1.5rem;
+    text-align: center;
+    line-height: 1.9rem;
+}
+
+.pad {
+    background-image: url('../img/gallery_pad.jpg');
+}
+
+.pillar {
+    background-image: url('../img/gallery_electro_pillar.jpg');
+}
+
+.transformer {
+    background-image: url('../img/gallery_transformer.jpg');
+}
+
+.zheka {
+    background-image: url('../img/gallery_zheka.jpg');
+}
+
+.montage {
+    background-image: url('../img/gallery_montage.jpg');
+}
+
+.bulb {
+    background-image: url('../img/gallery_bulb.jpg');
+}

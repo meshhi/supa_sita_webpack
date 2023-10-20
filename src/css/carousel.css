@@ -1,0 +1,29 @@
+.carousel {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.carousel-image-container {
+    width: 80%;
+    height: 70%;
+    border: 1px solid black;
+    position: relative;
+}
+
+.carousel-image-content {
+    position: absolute;
+    height: 100%;
+}
+
+.carousel-left-arrow {
+    transform: rotate(90deg);
+    cursor: pointer;
+}
+
+.carousel-right-arrow {
+    transform: rotate(-90deg);
+    cursor: pointer;
+}
