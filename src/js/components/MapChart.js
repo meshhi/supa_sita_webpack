@@ -92,7 +92,7 @@ class MapChart {
               }
             );
 
-            window.addEventListener('resize', function() {
+            window.addEventListener('resize', () => {
               this.mapChart.resize();
             });
     }
