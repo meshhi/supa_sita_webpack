@@ -97,3 +97,9 @@ ul {
     }
 
 }
+
+@media (max-width: 420px) {
+    .double-container {
+        flex-direction: column;
+    }
+}

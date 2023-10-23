@@ -1,40 +1,11 @@
-import MapChart from "./MapChart";
-import { isElementInViewport } from './utils';
+import AppManager from '../js/components/AppManager';
 
 const start = () => {
-  // advantages не во всю ширину залезают
-  document.addEventListener("scroll", () => {
-    const blocks = document.querySelectorAll(".custom-block");
-    blocks.forEach((block) => {
-      if (!isElementInViewport(block)) return;
-      if (block.classList.contains("appear")) return;
-      if (block.classList.contains("about")) return;
-      if (block.classList.contains("start")) return;
-      if (block.classList.contains("contacts")) {
-        block.classList.add("appear-bottom");
-        return;
-      }
-      if (block.classList.contains("advantages-container")) {
-        block.classList.add("appear-bottom");
-        return;
-      }
-      block.classList.add("appear");
-    });
-  });
-
-  const mapChart = new MapChart(document.querySelector('.map-chart-container'));
-
-  const leftArrowCarousel = document.querySelector('.carousel-left-arrow');
-  const rightArrowCarousel = document.querySelector('.carousel-right-arrow');
-  const carouselImageContent = document.querySelector('.carousel-image-content');
-
-  leftArrowCarousel.addEventListener('click', () => {
-    carouselImageContent.style.transform = 'translateX(-200%)';
-  });
-
-  rightArrowCarousel.addEventListener('click', () => {
-    carouselImageContent.style.transform = 'translateX(-100%)';
-  });
+  const appManager = new AppManager();
+  appManager.initCarousel();
+  appManager.initMapChart();
+  appManager.initReviews();
+  appManager.initScrollAnimations();
 }
 
 start();

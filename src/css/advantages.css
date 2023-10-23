@@ -35,3 +35,13 @@
     font-size: 18px;
     font-weight: bold;
 }
+
+@media (max-width: 420px) {
+    .advantages-container {
+        height: auto;
+    }
+    
+    .advantages-list {
+        flex-direction: column;
+    }
+}

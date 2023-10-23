@@ -1,0 +1,16 @@
+.review {
+    display: flex;
+    flex-direction: column;
+    flex: 1 40%;
+    border: 1px solid #b6b6b6;
+    padding: .5rem;
+    border-radius: .5rem;
+}
+
+.review-title {
+
+}
+
+.review-text {
+
+}

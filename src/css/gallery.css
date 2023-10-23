@@ -13,9 +13,6 @@
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    /* padding-bottom: 2rem; */
-    /* border: 2px solid blue; */
-    /* padding: 5px; */
 }
 
 .gallery-item-text {
@@ -53,4 +50,15 @@
 
 .bulb {
     background-image: url('../img/gallery_bulb.jpg');
+}
+
+@media (max-width: 420px) {
+    .gallery {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, 1fr);
+    }
+    
+    .advantages-list {
+        flex-direction: column;
+    }
 }

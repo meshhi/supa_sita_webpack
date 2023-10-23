@@ -81,3 +81,18 @@
     animation: popping 3s ease-in-out;
     animation-iteration-count: infinite;
 }
+
+@media (max-width: 420px) {
+    .start-inner-container {
+        flex-direction: column;
+        
+    }
+    .start-title-first {
+        font-size: 14px;
+    }
+
+    .start-inner-container-right-col {
+        width: 100%;
+    }
+
+}
