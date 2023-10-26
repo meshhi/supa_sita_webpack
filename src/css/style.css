@@ -7,6 +7,7 @@
 
 body {
     font-family: 'PTRootUIWebMedium',Arial,sans-serif;
+    position: relative;
 }
 
 ul {

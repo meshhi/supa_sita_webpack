@@ -22,9 +22,21 @@
     transition: transform 1s ease-in-out;
 }
 
-.carousel-image-content img {
+.carousel-image-box {
     min-width: 100%;
     height: 100%;
+}
+
+.carousel-image-box:nth-child(1) {
+    background-image: url('../img/carousel/Затяжка\ кабеля.jpg');
+}
+
+.carousel-image-box:nth-child(2) {
+    background-image: url('../img/carousel/Проект\ строительства\ воздушной\ линии.jpg');
+}
+
+.carousel-image-box:nth-child(3) {
+    background-image: url('../img/carousel/Прокладка\ кабельной\ линии\ в\ траншее.jpg');
 }
 
 .carousel-left-arrow {
